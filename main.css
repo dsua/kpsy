@@ -16,7 +16,15 @@ body {
   margin-top: 20px;
   font: 1.2em Verdana, sans-serif;
   border-top: 1px solid #3a5e9c;
+}
+
+.menu.top {
   border-bottom: 1px solid #3a5e9c;
+}
+
+.menu.bottom {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .menu a {
