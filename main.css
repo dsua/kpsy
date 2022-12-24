@@ -32,9 +32,6 @@ body {
 }
 
 .menu.bottom {
-  margin-bottom: 50px;
-  margin-top: 50px;
-  padding-top: 10px;
   font-size: 0.8em;
 }
 
@@ -160,6 +157,9 @@ li {
   margin-bottom: 0;
 }
 
+.payment-logo {
+  height: 50px;
+}
 
 
 
