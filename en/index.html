@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -23,8 +23,8 @@
       'gtm.start':
           new Date().getTime(), event: 'gtm.js'
     });
-    var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    let f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';
     j.async = true;
     j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
@@ -41,6 +41,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="../main.css">
+  <!--suppress JSUnresolvedLibraryURL -->
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
   />
@@ -76,7 +77,7 @@
   </div>
   <div class="blur-image-box image-box-size-big">
     <img class="blur-image" src="../lana_kostina_main_photo.jpg"
-         alt="Lana Kostina Psychologist Photo">
+         alt="Lana Kostina Psychologist">
   </div>
 
   <h2 id="about_me">About me</h2>
